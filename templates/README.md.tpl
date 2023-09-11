@@ -1,46 +1,27 @@
-![Header](images/header.png)
+![Header](images/header.png) 
 
-## Hi Welcome to my github Profile 👋
+# Bienvenue sur mon profil GitHub ! 👋
 
-#### 👷 Check out what I'm currently working on
-{{range recentContributions 10}}
-- [{{.Repo.Name}}]({{.Repo.URL}}) - {{.Repo.Description}} ({{humanize .OccurredAt}})
-{{- end}}
+## À propos de moi
 
-#### 🌱 My latest projects
-{{range recentRepos 10}}
-- [{{.Name}}]({{.URL}}) - {{.Description}}
-{{- end}}
+- 👤 **@enokseth**
+- 🌍 **France**
 
-#### 🔭 Latest releases I've contributed to
-{{range recentReleases 10}}
-- [{{.Name}}]({{.URL}}) ([{{.LastRelease.TagName}}]({{.LastRelease.URL}}), {{humanize .LastRelease.PublishedAt}}) - {{.Description}}
-{{- end}}
+## Mes projets
 
-#### 🔨 My recent Pull Requests
-{{range recentPullRequests 10}}
-- [{{.Title}}]({{.URL}}) on [{{.Repo.Name}}]({{.Repo.URL}}) ({{humanize .CreatedAt}})
-{{- end}}
+Voici quelques-uns de mes projets les plus récents :
 
-#### 📓 Gists I wrote
-{{range gists 5}}
-- [{{.Description}}]({{.URL}}) ({{humanize .CreatedAt}})
-{{- end}}
+- [GVoiceKiller](https://github.com/enokseth/GVoiceKiller) - Remove GVoice from Android with Magisk
+- [Samsung Boot Logo Chnager](https://github.com/enokseth/TWRP_Bootlogo_Changer-v2.2) - Change universaly boot animation on exynos9820 séries
 
-#### ⭐ Recent Stars
-{{range recentStars 10}}
-- [{{.Repo.Name}}]({{.Repo.URL}}) - {{.Repo.Description}} ({{humanize .StarredAt}})
-{{- end}}
+## Statistiques GitHub
 
-#### 👯 Check out some of my recent followers
+[![Statistiques GitHub](https://github-readme-stats.vercel.app/api?username=enokseth&show_icons=true&count_private=true)](https://github.com/enokseth)
 
-#### 💬 Feedback
+## Me contacter
 
-Say Hello, I don't bite (much)!
+N'hésitez pas à me contacter sur les plateformes suivantes :
 
-#### 📫 How to reach me
-<a href="https://www.instagram.com/enok._.seth/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></img></a>
-
-- Dev  🇫🇷: https://octmaat.com
-
-Want your own self-generating profile page? Check out [readme-scribe](https://github.com/muesli/readme-scribe)!
+- <a href="enokseth@octmaat.com"> <img src="https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white"></img></a>
+- 💼 **Instagram:** <a href="https://www.instagram.com/enok._.seth/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></img></a>
+- Wesite-Services  🇫🇷: <a href="https://octmaat.com">https://octmaat.com</a>
