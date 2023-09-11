@@ -22,6 +22,6 @@ Voici quelques-uns de mes projets les plus récents :
 
 N'hésitez pas à me contacter sur les plateformes suivantes :
 
-- <a href="enokseth@octmaat.com"> <img src="https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white"></img></a>
-- 💼 **Instagram:** <a href="https://www.instagram.com/enok._.seth/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></img></a>
-- Wesite-Services  🇫🇷: <a href="https://octmaat.com">https://octmaat.com</a>
+<a href="enokseth@octmaat.com"> <img src="https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white"></img></a>
+<a href="https://www.instagram.com/enok._.seth/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></img></a>
+Wesite-Services  🇫🇷: <a href="https://octmaat.com">https://octmaat.com</a>
