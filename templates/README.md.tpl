@@ -1,6 +1,6 @@
 ![Header](images/header.png)
 
-## Hi there Welcon to my github Profile👋
+## Hi Welcom to my github Profile 👋
 
 #### 👷 Check out what I'm currently working on
 {{range recentContributions 10}}
@@ -32,25 +32,15 @@
 - [{{.Repo.Name}}]({{.Repo.URL}}) - {{.Repo.Description}} ({{humanize .StarredAt}})
 {{- end}}
 
-#### ❤️ These awesome people sponsor me (thank you!)
-{{range sponsors 5}}
-
-
-- [{{.User.Login}}]({{.User.URL}}) ({{humanize .CreatedAt}})
-{{- end}}
-
 #### 👯 Check out some of my recent followers
-{{range followers 5}}
-- [{{.Login}}]({{.URL}})
-{{- end}}
 
 #### 💬 Feedback
 
 Say Hello, I don't bite (much)!
 
 #### 📫 How to reach me
-<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></img>
-- Instagram: https://www.instagram.com/enok._.seth/
+<a href="https://www.instagram.com/enok._.seth/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></img></a>
+
 - Dev  🇫🇷: https://octmaat.com
 
 Want your own self-generating profile page? Check out [readme-scribe](https://github.com/muesli/readme-scribe)!
