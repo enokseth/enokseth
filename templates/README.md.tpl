@@ -2,7 +2,6 @@
 
 ## Hi there Welcon to my github Profile👋
 
-
 #### 👷 Check out what I'm currently working on
 {{range recentContributions 10}}
 - [{{.Repo.Name}}]({{.Repo.URL}}) - {{.Repo.Description}} ({{humanize .OccurredAt}})
@@ -22,7 +21,6 @@
 {{range recentPullRequests 10}}
 - [{{.Title}}]({{.URL}}) on [{{.Repo.Name}}]({{.Repo.URL}}) ({{humanize .CreatedAt}})
 {{- end}}
-
 
 #### 📓 Gists I wrote
 {{range gists 5}}
@@ -51,6 +49,4 @@ Say Hello, I don't bite (much)!
 #### 📫 How to reach me
 <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></img>
 - Instagram: https://www.instagram.com/enok._.seth/
-- Dev  🇫🇷: https://octmqqt.com
-
-Want your own self-generating profile page? Check out [readme-scribe](https://github.com/muesli/readme-scribe)!
+- Dev  🇫🇷: https://octmaat.com
