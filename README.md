@@ -3,9 +3,7 @@
 ## Hi Welcome to my github Profile 👋
 
 #### 👷 Check out what I'm currently working on
-{{range recentContributions 10}}
-- [{{.Repo.Name}}]({{.Repo.URL}}) - {{.Repo.Description}} ({{humanize .OccurredAt}})
-{{- end}}
+
 
 #### 🌱 My latest projects
 {{range recentRepos 10}}
@@ -39,8 +37,9 @@
 Say Hello, I don't bite (much)!
 
 #### 📫 How to reach me
-<a href="https://www.instagram.com/enok._.seth/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></img></a>
+1. <a href="https://www.instagram.com/enok._.seth/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></img></a>
+2. <a href="enokseth@octmaat.com"> <img src="https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white"></img></a>
 
-- Dev  🇫🇷: https://octmaat.com
+Wesite-Services  🇫🇷: <a href="https://octmaat.com">https://octmaat.com</a>
 
 Want your own self-generating profile page? Check out [readme-scribe](https://github.com/muesli/readme-scribe)!
