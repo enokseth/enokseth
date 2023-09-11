@@ -41,5 +41,3 @@ Say Hello, I don't bite (much)!
 2. <a href="enokseth@octmaat.com"> <img src="https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white"></img></a>
 
 Wesite-Services  🇫🇷: <a href="https://octmaat.com">https://octmaat.com</a>
-
-Want your own self-generating profile page? Check out [readme-scribe](https://github.com/muesli/readme-scribe)!
