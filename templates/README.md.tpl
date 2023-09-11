@@ -1,6 +1,6 @@
 ![Header](images/header.png)
 
-## Hi Welcom to my github Profile 👋
+## Hi Welcome to my github Profile 👋
 
 #### 👷 Check out what I'm currently working on
 {{range recentContributions 10}}
