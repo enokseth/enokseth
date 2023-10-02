@@ -1,6 +1,7 @@
 ![Header](images/header.png) 
 
 # Welcome to my Github Profile ! 👋
+![Visitors](https://shields.io/badge/dynamic/json?label=Visitors&query=%24.visitorCount&url=https%3A%2F%2Fapi.countapi.xyz%2Fget%2Fenokseth%2F)
 
 ### Technos
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"></img>
