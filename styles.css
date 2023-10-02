@@ -1,0 +1,41 @@
+/* Stylez le conteneur de la lampe à tube */
+#visitor-count-container {
+    display: inline-block;
+    background-color: #000;
+    border: 3px solid #333;
+    border-radius: 15px;
+    padding: 10px;
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  /* Stylez la lampe à tube (le texte du compteur) */
+  #visitor-count {
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    padding: 5px;
+    background-color: #00ff00;
+    color: #000;
+    border-radius: 5px;
+    margin-left: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Animation de la lampe à tube */
+  @keyframes flicker {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  #visitor-count::before {
+    content: '|';
+    animation: flicker 1s infinite;
+  }
+  
