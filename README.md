@@ -1,8 +1,37 @@
 ![Header](images/header.png) 
 
 # Welcome to my Github Profile ! 👋
-![Visitors](https://shields.io/badge/dynamic/json?label=Visitors&query=%24.visitorCount&url=https%3A%2F%2Fapi.countapi.xyz%2Fget%2Fenokseth%2Fenokseth%2F)
+```javascript
+function updateClock() {
+    const now = new Date();
+    const hours = now.getHours().toString().padStart(2, '0');
+    const minutes = now.getMinutes().toString().padStart(2, '0');
+    const seconds = now.getSeconds().toString().padStart(2, '0');
+    const timeString = `${hours}:${minutes}:${seconds}`;
+    document.getElementById('clock').textContent = timeString;
+}
 
+// Mettez à jour l'horloge toutes les secondes
+setInterval(updateClock, 1000);
+
+// Appelez la fonction pour afficher l'heure actuelle
+updateClock();
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Clock</title>
+    <link rel="stylesheet" href="styles.css">nk
+</head>
+<body>
+    <h1>Heure actuelle : <span id="clock"></span></h1>
+
+    <script>
+      
+    </script>
+</body>
+</html>
 ### Technos
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"></img>
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"></img>
