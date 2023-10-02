@@ -3,7 +3,7 @@
 # Welcome to my Github Profile ! 👋
 
 <h1>Heure actuelle : <span id="clock"></span></h1>
-<script src="clock.js"></script>
+
 <link rel="stylesheet" href="styles.css">
 
 ### Technos
