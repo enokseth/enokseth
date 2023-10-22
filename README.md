@@ -54,7 +54,7 @@
 Here are some of my most recent projects :
 
 - [GVoiceKiller](https://github.com/enokseth/GVoiceKiller) - Remove GVoice from Android with Magisk
-- [Samsung Boot Logo Chnager](https://github.com/enokseth/TWRP_Bootlogo_Changer-v2.2) - Change universaly boot animation on exynos9820 séries
+- [Samsung Boot Logo Changer](https://github.com/enokseth/TWRP_Bootlogo_Changer-v2.2) - Change universaly boot animation on Sam exynos9820 séries
 
 ## GitHub Statistiques 
 
