@@ -1,8 +1,7 @@
 ![Header](images/header.png) 
 
-# Welcome to my Github Profile ! 👋
+# Welcome to my Github ! 👋
 
-<h1>Heure actuelle : <span id="clock"></span></h1>
 
 <link rel="stylesheet" href="styles.css">
 
