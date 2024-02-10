@@ -1,8 +1,3 @@
-![Header](images/header.png) 
-
-# Welcome to my Github ! 👋
-
-
 <link rel="stylesheet" href="styles.css">
 
 ### Technos
