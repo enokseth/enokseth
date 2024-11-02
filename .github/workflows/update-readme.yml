@@ -1,37 +1,35 @@
-name: Update README
+name: Update README with GitHub Stats
 
 on:
   schedule:
-    # Planification toutes les minutes (à ajuster si nécessaire)
-    - cron: '*/1 * * * *'
+    # Planification (ajuste la fréquence si nécessaire)
+    - cron: '0 * * * *'  # Toutes les heures
   workflow_dispatch:
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      # Utilisation de la dernière version de checkout
+      # Checkout du dépôt
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Configuration de Node.js avec Node 20
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '20'
-
-      # Exécuter le script pour mettre à jour le README
-      - name: Run update script
+      # Récupérer les statistiques et générer le README
+      - name: Generate README with stats
         run: |
-          node clock.js
+          curl -o README.md "https://raw.githubusercontent.com/enokseth/enokseth/main/README.md"
+          echo "\n## GitHub Statistiques" >> README.md
+          echo "![Statistiques GitHub](https://github-readme-stats.vercel.app/api?username=enokseth&show_icons=true&count_private=true)" >> README.md
+          echo "\n## Programming languages" >> README.md
+          echo "![Langages de programmation](https://github-readme-stats.vercel.app/api/top-langs/?username=enokseth&layout=compact&count_private=true)" >> README.md
 
-      # Ajouter les changements et les pousser
+      # Commit et push des modifications
       - name: Commit and push changes
         run: |
           git config --local user.name "GitHub Actions"
           git config --local user.email "actions@github.com"
           git add README.md
-          git commit -m "Update README.md" || echo "No changes to commit"
+          git commit -m "Update README with latest stats" || echo "No changes to commit"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
