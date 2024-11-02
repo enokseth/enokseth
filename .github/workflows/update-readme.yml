@@ -20,12 +20,16 @@ jobs:
           # Télécharger le README actuel
           curl -o README.md "https://raw.githubusercontent.com/enokseth/enokseth/main/README.md"
 
-          # Mettre à jour les sections spécifiques avec sed
+          # Utiliser sed pour nettoyer et remplacer le contenu
           sed -i '/## GitHub Statistiques/,$d' README.md
-          echo "\n## GitHub Statistiques" >> README.md
-          echo "![Statistiques GitHub](https://github-readme-stats.vercel.app/api?username=enokseth&show_icons=true&count_private=true)" >> README.md
-          echo "\n## Programming languages" >> README.md
-          echo "![Langages de programmation](https://github-readme-stats.vercel.app/api/top-langs/?username=enokseth&layout=compact&count_private=true)" >> README.md
+
+          # Ajouter les nouvelles sections de statistiques sans doublon
+          {
+            echo "## GitHub Statistiques"
+            echo "![Statistiques GitHub](https://github-readme-stats.vercel.app/api?username=enokseth&show_icons=true&count_private=true)"
+            echo "## Programming languages"
+            echo "![Langages de programmation](https://github-readme-stats.vercel.app/api/top-langs/?username=enokseth&layout=compact&count_private=true)"
+          } >> README.md
 
       # Commit et push des modifications
       - name: Commit and push changes
