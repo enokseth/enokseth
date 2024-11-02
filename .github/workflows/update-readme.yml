@@ -1,0 +1,37 @@
+name: Update README
+
+on:
+  schedule:
+    # Planification toutes les minutes (pense à ajuster la fréquence si nécessaire)
+    - cron: '*/1 * * * *'
+  workflow_dispatch: # Permet le déclenchement manuel du workflow
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      # Checkout du code
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Configuration de Node.js (si nécessaire pour des scripts)
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      # Exécuter le script pour mettre à jour le README
+      - name: Run update script
+        run: |
+          node clock.js # Remplace par le script que tu utilises pour générer le README ou le fichier à mettre à jour
+
+      # Ajouter les changements et les pousser
+      - name: Commit and push changes
+        run: |
+          git config --local user.name "GitHub Actions"
+          git config --local user.email "actions@github.com"
+          git add README.md
+          git commit -m "Update README.md"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
