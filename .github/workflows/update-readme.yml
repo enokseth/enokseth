@@ -2,19 +2,19 @@ name: Update README
 
 on:
   schedule:
-    # Planification toutes les minutes (à ajuster si nécessaire)
+    # Planification toutes les minutes (pense à ajuster la fréquence si nécessaire)
     - cron: '*/1 * * * *'
-  workflow_dispatch:
+  workflow_dispatch: # Permet le déclenchement manuel du workflow
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      # Mise à jour pour utiliser la dernière version de l'action
+      # Checkout du code
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Configuration de Node.js
+      # Configuration de Node.js (si nécessaire pour des scripts)
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
@@ -23,7 +23,7 @@ jobs:
       # Exécuter le script pour mettre à jour le README
       - name: Run update script
         run: |
-          node clock.js
+          node clock.js # Remplace par le script que tu utilises pour générer le README ou le fichier à mettre à jour
 
       # Ajouter les changements et les pousser
       - name: Commit and push changes
