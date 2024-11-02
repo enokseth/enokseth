@@ -50,19 +50,7 @@ Here are some of my most recent projects :
 - [Samsung Boot Logo Changer](https://github.com/enokseth/TWRP_Bootlogo_Changer-v2.2) - Change universaly boot animation on Sam exynos9820 séries
 - [Github Page](https://enokseth.github.io/) - Github Pages.
 
-## GitHub Statistiques 
-
-[![Statistiques GitHub](https://github-readme-stats.vercel.app/api?username=enokseth&show_icons=true&count_private=true)](https://github.com/enokseth)
-
-## Programming languages
-
-[![Langages de programmation](https://github-readme-stats.vercel.app/api/top-langs/?username=enokseth&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
-
-
-## Contact me at:
-
-Do not hesitate to contact me on the following platforms :
-
-<a href="enokseth@octmaat.com"> <img src="https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white"></img></a>
-<a href="https://www.instagram.com/enoksseth/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></img></a>
-🇫🇷
+\n## GitHub Statistiques
+![Statistiques GitHub](https://github-readme-stats.vercel.app/api?username=enokseth&show_icons=true&count_private=true)
+\n## Programming languages
+![Langages de programmation](https://github-readme-stats.vercel.app/api/top-langs/?username=enokseth&layout=compact&count_private=true)
