@@ -14,10 +14,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Récupérer les statistiques et générer le README
-      - name: Generate README with stats
+      # Mettre à jour le README sans duplication
+      - name: Update README with stats
         run: |
+          # Télécharger le README actuel
           curl -o README.md "https://raw.githubusercontent.com/enokseth/enokseth/main/README.md"
+
+          # Mettre à jour les sections spécifiques avec sed
+          sed -i '/## GitHub Statistiques/,$d' README.md
           echo "\n## GitHub Statistiques" >> README.md
           echo "![Statistiques GitHub](https://github-readme-stats.vercel.app/api?username=enokseth&show_icons=true&count_private=true)" >> README.md
           echo "\n## Programming languages" >> README.md
