@@ -10,15 +10,15 @@ jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      # Mise à jour pour utiliser la dernière version de l'action
+      # Utilisation de la dernière version de checkout
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Configuration de Node.js
+      # Configuration de Node.js avec Node 20
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16'
+          node-version: '20'
 
       # Exécuter le script pour mettre à jour le README
       - name: Run update script
@@ -31,7 +31,7 @@ jobs:
           git config --local user.name "GitHub Actions"
           git config --local user.email "actions@github.com"
           git add README.md
-          git commit -m "Update README.md"
+          git commit -m "Update README.md" || echo "No changes to commit"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
