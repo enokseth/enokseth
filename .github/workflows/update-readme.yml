@@ -3,7 +3,7 @@ name: Update README with GitHub Stats
 on:
   schedule:
     # Planification toutes les 4 jours à minuit UTC
-    - cron: '0 0 */4 * *'  # Tous les 4 jours à 00:00 UTC
+    - cron: '0 0 */1 * *'  # Tous les 4 jours à 00:00 UTC
   workflow_dispatch:
 
 jobs:
