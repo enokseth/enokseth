@@ -50,14 +50,7 @@ Here are some of my most recent projects :
 - [Samsung Boot Logo Changer](https://github.com/enokseth/TWRP_Bootlogo_Changer-v2.2) - Change universaly boot animation on Sam exynos9820 séries
 - [Github Page](https://enokseth.github.io/) - Github Pages.
 
-<<<<<<< HEAD
 \n## GitHub Statistiques
 ![Statistiques GitHub](https://github-readme-stats.vercel.app/api?username=enokseth&show_icons=true&count_private=true&cache_seconds=1800)
 \n## Programming languages
 ![Langages de programmation](https://github-readme-stats.vercel.app/api/top-langs/?username=enokseth&layout=compact&count_private=true&cache_seconds=1800)
-=======
-## GitHub Statistiques
-![Statistiques GitHub](https://github-readme-stats.vercel.app/api?username=enokseth&show_icons=true&count_private=true)
-## Programming languages
-![Langages de programmation](https://github-readme-stats.vercel.app/api/top-langs/?username=enokseth&layout=compact&count_private=true)
->>>>>>> 34f19e339b07d901d897fe12b93c421257f4bc8c
