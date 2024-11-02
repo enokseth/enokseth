@@ -2,8 +2,8 @@ name: Update README with GitHub Stats
 
 on:
   schedule:
-    # Planification (ajuste la fréquence si nécessaire)
-    - cron: '0 * * * *'  # Toutes les heures
+    # Planification toutes les 4 jours à minuit UTC
+    - cron: '0 0 */4 * *'  # Tous les 4 jours à 00:00 UTC
   workflow_dispatch:
 
 jobs:
@@ -26,9 +26,9 @@ jobs:
           # Ajouter les nouvelles sections de statistiques sans doublon
           {
             echo "## GitHub Statistiques"
-            echo "![Statistiques GitHub](https://github-readme-stats.vercel.app/api?username=enokseth&show_icons=true&count_private=true)"
+            echo "![Statistiques GitHub](https://github-readme-stats.vercel.app/api?username=enokseth&show_icons=true&count_private=true&cache_seconds=1800)"
             echo "## Programming languages"
-            echo "![Langages de programmation](https://github-readme-stats.vercel.app/api/top-langs/?username=enokseth&layout=compact&count_private=true)"
+            echo "![Langages de programmation](https://github-readme-stats.vercel.app/api/top-langs/?username=enokseth&layout=compact&count_private=true&cache_seconds=1800)"
           } >> README.md
 
       # Commit et push des modifications
