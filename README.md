@@ -29,8 +29,8 @@
 <img src="https://img.shields.io/badge/Kali-268BEE?style=for-the-badge&logo=kalilinux&logoColor=white"></img>
 <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white"></img>
 
+## Programming languages
+![Langages de programmation](https://github-readme-stats.vercel.app/api/top-langs/?username=enokseth&layout=compact&count_private=true)
 
 ## GitHub Statistiques
 ![Statistiques GitHub](https://github-readme-stats.vercel.app/api?username=enokseth&show_icons=true&count_private=true)
-## Programming languages
-![Langages de programmation](https://github-readme-stats.vercel.app/api/top-langs/?username=enokseth&layout=compact&count_private=true)
