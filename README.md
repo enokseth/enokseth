@@ -1,6 +1,5 @@
 <link rel="stylesheet" href="styles.css">
 
-### Technos
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"></img>
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"></img>
 <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"></img>
@@ -30,15 +29,6 @@
 <img src="https://img.shields.io/badge/Kali-268BEE?style=for-the-badge&logo=kalilinux&logoColor=white"></img>
 <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white"></img>
 
-
-
-## My projects
-
-Here are some of my most recent projects :
-
-- [GVoiceKiller](https://github.com/enokseth/GVoiceKiller) - Remove GVoice from Android with Magisk
-- [Samsung Boot Logo Changer](https://github.com/enokseth/TWRP_Bootlogo_Changer-v2.2) - Change universaly boot animation on Sam exynos9820 séries
-- [Github Page](https://enokseth.github.io/) - Github Pages.
 
 ## GitHub Statistiques
 ![Statistiques GitHub](https://github-readme-stats.vercel.app/api?username=enokseth&show_icons=true&count_private=true)
