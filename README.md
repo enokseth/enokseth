@@ -26,6 +26,7 @@
 
 <img src="https://img.shields.io/badge/Krita-203759?style=for-the-badge&logo=krita&logoColor=EEF37B"></img>
 <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white"></img>
+![Time](https://img.shields.io/badge/Time-Now-blue?style=for-the-badge&logo=clock&logoColor=white)
 
 <img src="https://img.shields.io/badge/DigitalOcean-%230167ff.svg?style=for-the-badge&logo=digitalOcean&logoColor=white"></img>
 <img src="https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white"></img>
@@ -37,7 +38,7 @@
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=F7768E&center=true&vCenter=true&width=435&lines=Reverse+Engineer+%7C+GSM+Enthusiast;Building+DracoNet+%F0%9F%90%89+;Radio+Recon+%7C+Modem+Unlock+Tools)
 
 [![GitHub Streak](https://streak-stats.demolab.com/?user=enokseth&theme=tokyonight)](https://git.io/streak-stats)
-![Time](https://img.shields.io/badge/Time-Now-blue?style=for-the-badge&logo=clock&logoColor=white)
+
 
 ![Statistiques GitHub](https://github-readme-stats.vercel.app/api?username=enokseth&show_icons=true&count_private=true)
  ![Langages de programmation](https://github-readme-stats.vercel.app/api/top-langs/?username=enokseth&layout=compact&count_private=true)
