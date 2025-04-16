@@ -38,7 +38,8 @@
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=F7768E&center=true&vCenter=true&width=435&lines=Reverse+Engineer+%7C+GSM+Enthusiast;Building+DracoNet+%F0%9F%90%89+;Radio+Recon+%7C+Modem+Unlock+Tools)
 
 [![GitHub Streak](https://streak-stats.demolab.com/?user=enokseth&theme=tokyonight)](https://git.io/streak-stats)
-![GitHub Activity](https://activity-graph.herokuapp.com/graph?username=enokseth&bg_color=ffffff&color=6a4fff&line=6a4fff&point=ffffff&area=true&hide_border=true)
+![GitHub Contribution Graph](https://github-readme-activity-graph.cyclic.app/graph?username=enokseth&bg_color=FFFFFF&color=0066FF&line=0066FF&point=0066FF&area=true&hide_border=true)
+
 
 
 
