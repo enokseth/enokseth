@@ -1,5 +1,7 @@
 <link rel="stylesheet" href="styles.css">
 
+![Visiteurs](https://komarev.com/ghpvc/?username=enokseth&color=blueviolet&style=flat-square)
+
 <img src="https://img.shields.io/badge/Kali-268BEE?style=for-the-badge&logo=kalilinux&logoColor=white"></img>
 <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"></img>
 <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white"></img>
@@ -25,12 +27,12 @@
 <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"></img>
 <img src="https://img.shields.io/badge/symfony-%23000000.svg?style=for-the-badge&logo=symfony&logoColor=white"></img>
 
-<img src="https://metrics.lecoq.io/enokseth?template=classic&base.indepth=false&config.timezone=Europe%2FParis" />
+<img src="https://metrics.lecoq.io/enokseth?template=classic&base.indepth=false&config.timezone=Europe%2FParis"/>
 
 
 [![GitHub Streak](https://streak-stats.demolab.com/?user=enokseth&theme=tokyonight)](https://git.io/streak-stats)
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=F7768E&center=true&vCenter=true&width=435&lines=Reverse+Engineer+%7C+GSM+Enthusiast;Building+DracoNet+%F0%9F%90%89+;Radio+Recon+%7C+Modem+Unlock+Tools)
-![Visiteurs](https://komarev.com/ghpvc/?username=enokseth&color=blueviolet&style=flat-square)
+
 
 
 
