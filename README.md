@@ -3,6 +3,7 @@
 ![Visiteurs](https://komarev.com/ghpvc/?username=enokseth&color=blueviolet&style=flat-square)
 ![StackOverflow](https://img.shields.io/badge/StackOverflow-helpful-orange?style=flat-square&logo=stackoverflow)
 ![Love](https://img.shields.io/badge/Made%20with-%E2%9D%A4-red?style=flat-square)
+![Open Source](https://img.shields.io/badge/Open%20Source-%E2%9C%94-brightgreen?style=flat-square)
 
 <img src="https://img.shields.io/badge/Kali-268BEE?style=for-the-badge&logo=kalilinux&logoColor=white"></img>
 <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"></img>
