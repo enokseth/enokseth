@@ -32,8 +32,9 @@
 [![GitHub Streak](https://streak-stats.demolab.com/?user=enokseth&theme=tokyonight)](https://git.io/streak-stats)
 
 
+![Statistiques GitHub](https://github-readme-stats.vercel.app/api?username=enokseth&show_icons=true&count_private=true)
 
 ![Langages de programmation](https://github-readme-stats.vercel.app/api/top-langs/?username=enokseth&layout=compact&count_private=true)
-      ![Statistiques GitHub](https://github-readme-stats.vercel.app/api?username=enokseth&show_icons=true&count_private=true)
+      
 
 
