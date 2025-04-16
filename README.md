@@ -1,10 +1,8 @@
 <link rel="stylesheet" href="styles.css">
 
 ![Visiteurs](https://komarev.com/ghpvc/?username=enokseth&color=blueviolet&style=flat-square)
-![Dernier commit](https://img.shields.io/github/last-commit/enokseth/nom-du-repo?style=flat-square&color=yellow)
-![MAJ](https://img.shields.io/github/commit-activity/m/enokseth/nom-du-repo?style=flat-square)
-![Taille repo](https://img.shields.io/github/repo-size/enokseth/nom-du-repo?style=flat-square)
 ![StackOverflow](https://img.shields.io/badge/StackOverflow-helpful-orange?style=flat-square&logo=stackoverflow)
+![Love](https://img.shields.io/badge/Made%20with-%E2%9D%A4-red?style=flat-square)
 
 <img src="https://img.shields.io/badge/Kali-268BEE?style=for-the-badge&logo=kalilinux&logoColor=white"></img>
 <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"></img>
